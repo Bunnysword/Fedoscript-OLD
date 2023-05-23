@@ -1,5 +1,7 @@
 Script for Fedora 37(38)
 
+wget https://github.com/Bunnysword/FedoraXScript/raw/main/script/fedoraxscript.sh && sh fedoraxscript.sh
+
 On rpmfusion free/nonfree, yandex-browser repo.
 
 off services: 
