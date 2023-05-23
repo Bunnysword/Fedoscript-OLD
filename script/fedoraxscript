@@ -25,7 +25,7 @@ echo "\n----alias----" && alias n="neofetch" && alias n="neofetch" && alias k="u
 alias m="inxi -G |grep Mesa" && alias age="stat / | grep "Birth"" && alias ram="sudo dmidecode -t memory | grep Speed"
 alias cpu="lscpu | grep Model" && alias cpuc="lscpu" && alias w="wine --version" && alias pc="inxi -Ixxx" && alias net="inxi -Nxxx"
 
-echo -e "\t----Extensions Gnome----" && gnome-extensions enable -y appindicatorsupport@rgcjonas.gmail.com 
+echo -e "\t----Extensions Gnome----" && gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com 
 array=( https://extensions.gnome.org/extension/1160/dash-to-panel/
 https://extensions.gnome.org/extension/4679/burn-my-windows/
 https://extensions.gnome.org/extension/3193/blur-my-shell/
