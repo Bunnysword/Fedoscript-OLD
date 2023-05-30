@@ -1,4 +1,4 @@
-# Fedora 38(37) Script
+# Fedora Workstation 38(37) Script
 ##### 1) Repo on:
 rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-browser repo.
 ##### 2️) Boost dnf
