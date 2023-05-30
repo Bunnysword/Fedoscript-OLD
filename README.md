@@ -1,4 +1,8 @@
 # Fedora Workstation 38(37) Script
+```
+git clone https://github.com/Bunnysword/Fedoscript
+```
+
 ##### 1) Repo on:
 rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-browser repo.
 ##### 2️) Boost dnf
@@ -12,7 +16,7 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 ##### 7) Install Kernel-Xanmod-edge by guara, upgrade and clean
 ##### 8) Configuring firewall
 
-https://github.com/Bunnysword/Fedoscript/blob/main/Fedoscript.sh
+##### View code: https://github.com/Bunnysword/Fedoscript/blob/main/Fedoscript.sh
 ____
 ## My Neofetch
 https://github.com/Bunnysword/FedoraXScript/blob/main/config.conf
