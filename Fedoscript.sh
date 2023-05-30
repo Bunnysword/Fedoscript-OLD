@@ -24,6 +24,7 @@ systemctl --user mask org.gnome.SettingsDaemon.Wacom.service
 systemctl --user mask org.gnome.SettingsDaemon.Color.service
 systemctl --user mask org.gnome.SettingsDaemon.UsbProtection.service
 systemctl --user mask org.gnome.SettingsDaemon.Smartcard.service
+
 echo "\n----alias----"
 
 aliases() {
