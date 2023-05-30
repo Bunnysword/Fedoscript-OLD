@@ -8,12 +8,8 @@ sudo dnf autoremove -y && sudo dnf clean -y all && sudo dnf install -y dnf-autom
 echo -e "\t----Yandex Browser----" && sudo rpmkeys --import https://repo.yandex.ru/yandex-browser/YANDEX-BROWSER-KEY.GPG && sudo dnf config-manager --add-repo http://repo.yandex.ru/yandex-browser/rpm/stable/x86_64 && sudo dnf install yandex-browser-stable -y
 echo -e "\t----Remove native apps----" && sudo dnf remove -y mediawriter rhythmbox evince yelp gnome-characters gnome-logs totem gnome-tour gnome-photos gnome-maps gnome-weather gnome-font-viewer gnome-contacts gnome-clocks gnome-calendar gnome-boxes firefox libreoffice*
 echo -e "\t----Install native apps----" && sudo dnf install -y mangohud timeshift goverlay steam lutris transmission-gtk telegram-desktop kdenlive vlc gnome-tweaks htop redhat-lsb-core rocm-opencl inxi neofetch protontricks --allowerasing
-echo -e "\t----installing codecs----" && sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
-sudo dnf install lame\* --exclude=lame-devel && sudo dnf group upgrade --with-optional Multimedia
-echo -e "\е----VSC installing----" && sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-printf "[vscode]\nname=packages.microsoft.com\nbaseurl=https://packages.microsoft.com/yumrepos/vscode/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc\nmetadata_expire=1h"
-sudo tee -a /etc/yum.repos.d/vscode.repo
-sudo dnf install code -y
+echo -e "\t----installing codecs----" && sudo dnf remove sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install lame\* --exclude=lame-devel && sudo dnf group upgrade --with-optional Multimedia --allowerasing
 echo -e "\t----On flatpak----" && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo -e "\t----Install flatpak apps----" && flatpak install -y flathub com.heroicgameslauncher.hgl com.obsproject.Studio com.mattjakeman.ExtensionManager
 echo -e "\t----Kernel-Xanmod-edge----" && sudo dnf copr enable -y guara/kernel-xanmod && sudo dnf in -y kernel-xanmod-edge
