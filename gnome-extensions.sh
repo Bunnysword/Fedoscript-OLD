@@ -20,3 +20,4 @@ do
     gnome-extensions enable ${EXTENSION_ID}
     rm ${EXTENSION_ID}.zip
 done
+
