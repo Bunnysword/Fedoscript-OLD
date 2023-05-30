@@ -18,7 +18,7 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 > dash-to-panel, burn-my-windows, blur-my-shell, gsconnect, rounded-window-corners
 ##### 11) Configuring firewall
 
-https://github.com/Bunnysword/FedoraXScript/blob/main/FedoraXScript.sh
+https://github.com/Bunnysword/Fedoscript/blob/main/Fedoscript.sh
 ____
 ## My Neofetch
 https://github.com/Bunnysword/FedoraXScript/blob/main/config.conf
