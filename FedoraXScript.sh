@@ -7,7 +7,7 @@ echo -e "\t----Boost dnf----" && sudo echo $'fastestmirror=True\nmax_parallel_do
 sudo dnf autoremove -y && sudo dnf clean -y all && sudo dnf install -y dnf-automatic && systemctl enable dnf-automatic.timer
 echo -e "\t----Yandex Browser----" && sudo rpmkeys --import https://repo.yandex.ru/yandex-browser/YANDEX-BROWSER-KEY.GPG && sudo dnf config-manager --add-repo http://repo.yandex.ru/yandex-browser/rpm/stable/x86_64 && sudo dnf install yandex-browser-stable -y
 echo -e "\t----Remove native apps----" && sudo dnf remove -y mediawriter rhythmbox evince yelp gnome-characters gnome-logs totem gnome-tour gnome-photos gnome-maps gnome-weather gnome-font-viewer gnome-contacts gnome-clocks gnome-calendar gnome-boxes firefox libreoffice*
-echo -e "\t----Install native apps----" && sudo dnf install -y discord mangohud timeshift goverlay steam lutris transmission-gtk telegram-desktop kdenlive vlc gnome-tweaks htop redhat-lsb-core rocm-opencl inxi neofetch protontricks --allowerasing
+echo -e "\t----Install native apps----" && sudo dnf install -y mangohud timeshift goverlay steam lutris transmission-gtk telegram-desktop kdenlive vlc gnome-tweaks htop redhat-lsb-core rocm-opencl inxi neofetch protontricks --allowerasing
 echo -e "\t----installing codecs----" && sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
 sudo dnf install lame\* --exclude=lame-devel && sudo dnf group upgrade --with-optional Multimedia
 
