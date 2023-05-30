@@ -5,7 +5,7 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 ##### 3) Remove app:
 > mediawriter, rhythmbox, evince, yelp, gnome-characters, gnome-logs, totem, gnome-tour, gnome-photos, gnome-maps, gnome-weather, gnome-font-viewer, gnome-contacts, gnome-clocks, gnome-calendar, gnome-boxes, firefox, libreoffice.
 ##### 4) Install app:
-> mangohud, timeshift, goverlay, steam, lutris, transmission-gtk, telegram-desktop, kdenlive, vlc, gnome-tweaks, htop, redhat-lsb-core, rocm-opencl, inxi, neofetch, protontricks, yandex-browser.
+> vsc, mangohud, timeshift, goverlay, steam, lutris, transmission-gtk, telegram-desktop, kdenlive, vlc, gnome-tweaks, htop, redhat-lsb-core, rocm-opencl, inxi, neofetch, protontricks, yandex-browser.
 ##### 5) Installing codecs and plugins gstreamer and on flatpak
 ##### 6) Install app from flatpak:
 > heroicgameslauncher, obs-studio
