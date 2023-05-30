@@ -19,9 +19,9 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 > n="neofetch", k="uname -rs", g="gnome-shell --version", f="lsb_release -sd", m="inxi -G |grep Mesa", age="stat / | grep "Birth", ram="sudo dmidecode -t memory | grep Speed", cpu="lscpu | grep Model", cpuc="lscpu", w="wine --version", pc="inxi -Ixxx", net="inxi -Nxxx"
 ##### 13) Gnome extensions:
 > dash-to-panel, burn-my-windows, blur-my-shell, gsconnect, rounded-window-corners
+##### 14) Configuring firewall
 
 https://github.com/Bunnysword/FedoraXScript/blob/main/FedoraXScript.sh
-
 ____
 ## My Neofetch
 https://github.com/Bunnysword/FedoraXScript/blob/main/config.conf
