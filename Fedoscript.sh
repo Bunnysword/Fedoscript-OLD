@@ -16,12 +16,6 @@ echo -e "\t----Kernel-Xanmod-edge----" && sudo dnf copr enable -y guara/kernel-x
 
 echo -e "\t----Upgrade----" && sudo dnf upgrade -y --refresh
 echo -e "\t----Clean----" && sudo dnf clean all
-echo -e "\t----Off Services-----"
-systemctl --user mask org.gnome.SettingsDaemon.Wacom.service
-systemctl --user mask org.gnome.SettingsDaemon.Color.service
-systemctl --user mask org.gnome.SettingsDaemon.UsbProtection.service
-systemctl --user mask org.gnome.SettingsDaemon.Smartcard.service
-
 echo "\n----alias----"
 
 aliases() {
