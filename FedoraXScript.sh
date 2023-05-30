@@ -38,7 +38,6 @@ gnome_extensions() {
     https://extensions.gnome.org/extension/3193/blur-my-shell/
     https://extensions.gnome.org/extension/1319/gsconnect/
     https://extensions.gnome.org/extension/5237/rounded-window-corners/
-    https://extensions.gnome.org/extension/1228/arc-menu/
   )
 
   for i in "${array[@]}"
