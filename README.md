@@ -6,20 +6,17 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 > mediawriter, rhythmbox, evince, yelp, gnome-characters, gnome-logs, totem, gnome-tour, gnome-photos, gnome-maps, gnome-weather, gnome-font-viewer, gnome-contacts, gnome-clocks, gnome-calendar, gnome-boxes, firefox, libreoffice.
 ##### 4) Install app:
 > mangohud, timeshift, goverlay, steam, lutris, transmission-gtk, telegram-desktop, kdenlive, vlc, gnome-tweaks, htop, redhat-lsb-core, rocm-opencl, inxi, neofetch, protontricks, yandex-browser.
-##### 5) Installing codecs and plugins gstreamer
-##### 6) On flatpak
-##### 7) Install app from flatpak:
+##### 5) Installing codecs and plugins gstreamer and on flatpak
+##### 6) Install app from flatpak:
 > heroicgameslauncher, obs-studio
-##### 8) Install Kernel-Xanmod-edge by guara
-##### 9) Upgrade
-##### 10) Clean
-##### 11) Off Services:
+##### 7) Install Kernel-Xanmod-edge by guara, upgrade and clean
+##### 8) Off Services:
 > Wacom.service, Color.service, UsbProtection.service, Smartcard.service.
-##### 12) Aliases:
+##### 9) Aliases:
 > n="neofetch", k="uname -rs", g="gnome-shell --version", f="lsb_release -sd", m="inxi -G |grep Mesa", age="stat / | grep "Birth", ram="sudo dmidecode -t memory | grep Speed", cpu="lscpu | grep Model", cpuc="lscpu", w="wine --version", pc="inxi -Ixxx", net="inxi -Nxxx"
-##### 13) Gnome extensions:
+##### 10) Gnome extensions:
 > dash-to-panel, burn-my-windows, blur-my-shell, gsconnect, rounded-window-corners
-##### 14) Configuring firewall
+##### 11) Configuring firewall
 
 https://github.com/Bunnysword/FedoraXScript/blob/main/FedoraXScript.sh
 ____
