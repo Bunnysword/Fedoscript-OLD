@@ -18,7 +18,7 @@ Wacom.service, Color.service, UsbProtection.service, Smartcard.service.
 ##### 12) Aliases:
 n="neofetch", k="uname -rs", g="gnome-shell --version", f="lsb_release -sd", m="inxi -G |grep Mesa", age="stat / | grep "Birth", 
 ram="sudo dmidecode -t memory | grep Speed", cpu="lscpu | grep Model", cpuc="lscpu", w="wine --version", pc="inxi -Ixxx", net="inxi -Nxxx"
-##### Gnome extensions:
+##### 13) Gnome extensions:
 dash-to-panel, burn-my-windows, blur-my-shell, gsconnect, rounded-window-corners
 
 
