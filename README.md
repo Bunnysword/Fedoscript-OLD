@@ -10,11 +10,7 @@ rpmfusion-free-appstream-data, rpmfusion-nonfree-appstream-data and yandex-brows
 ##### 6) Install app from flatpak:
 > heroicgameslauncher, obs-studio
 ##### 7) Install Kernel-Xanmod-edge by guara, upgrade and clean
-##### 8) Aliases:
-> n="neofetch", k="uname -rs", g="gnome-shell --version", f="lsb_release -sd", m="inxi -G |grep Mesa", age="stat / | grep "Birth", ram="sudo dmidecode -t memory | grep Speed", cpu="lscpu | grep Model", cpuc="lscpu", w="wine --version", pc="inxi -Ixxx", net="inxi -Nxxx"
-##### 9) Gnome extensions:
-> dash-to-panel, burn-my-windows, blur-my-shell, gsconnect, rounded-window-corners
-##### 10) Configuring firewall
+##### 8) Configuring firewall
 
 https://github.com/Bunnysword/Fedoscript/blob/main/Fedoscript.sh
 ____
