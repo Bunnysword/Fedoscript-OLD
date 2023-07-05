@@ -12,7 +12,7 @@ echo -e "\t----installing codecs----" && sudo dnf remove sudo dnf install -y gst
 sudo dnf install lame\* --exclude=lame-devel && sudo dnf group upgrade --with-optional Multimedia --allowerasing
 echo -e "\t----On flatpak----" && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo -e "\t----Install flatpak apps----" && flatpak install -y flathub com.heroicgameslauncher.hgl com.obsproject.Studio com.mattjakeman.ExtensionManager
-echo -e "\t----Kernel-Xanmod-edge----" && sudo dnf copr enable -y guara/kernel-xanmod && sudo dnf in -y kernel-xanmod-edge && sudo dnf in kernel-xanmod-edge-headers kernel-xanmod-edge-devel
+echo -e "\t----Kernel-Xanmod-edge----" && sudo dnf copr enable -y guara/kernel-xanmod && sudo dnf in -y kernel-xanmod-edge*
 echo -e "\t----configuring firewall----"
 sudo firewall-cmd --zone=public --permanent --add-port=1714-1764/tcp && sudo firewall-cmd --zone=public --permanent --add-port=1714-1764/udp && sudo systemctl restart firewalld.service
 echo -e "\t----Upgrade----" && sudo dnf upgrade -y --refresh
